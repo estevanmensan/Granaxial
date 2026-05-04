@@ -1,0 +1,61 @@
+*{ /* Seleciona todos os elementos da página*/
+    margin: 0; /*remove o espaçamento externo padrão */
+    padding: 0; /*remove o espaçamento INTERNO padrão*/
+    box-sizing: 0; /*largura e altura incluem padding+borda*/
+}
+
+head {
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    font-size: medium;
+    font-display: fallback;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex; /* coloca tudo em linha*/
+    align-items: center;
+    gap: 10px
+}
+
+.logo img {
+    width: 60px;
+}
+
+.titulo {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape {
+    text-decoration: blink;
+    color: #333;
+    font-size: 16px;
+    justify-content: end;
+    text-shadow: #333;
+}
