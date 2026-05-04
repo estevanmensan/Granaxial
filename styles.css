@@ -11,8 +11,10 @@ head {
     padding: 20px;
 }
 
+
 header {
-    background-color: chartreuse;
+    background: #48BC5A;
+    background: linear-gradient(94deg,rgba(72, 188, 90, 1) 13%, rgba(18, 50, 86, 1) 51%, rgba(72, 188, 90, 1) 87%);
     color: black;
     text-align: center;
     padding: 20px;
@@ -21,6 +23,7 @@ header {
     font-display: fallback;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -43,8 +46,8 @@ header {
 footer {
     display: flex;
     position: fixed;
-    background-color: chartreuse;
-    justify-content: center;
+    background: #48BC5A;
+    background: linear-gradient(94deg,rgba(72, 188, 90, 1) 13%, rgba(18, 50, 86, 1) 51%, rgba(72, 188, 90, 1) 87%);
     align-items: center;
     gap: 10px;
     padding: 20px;
