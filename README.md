@@ -1,4 +1,4 @@
-# Granixia
+# Granaxial
 Repositório para Site da empresa Granixia
 ## Planejamento do site
 - Criação da arquitetura do site
