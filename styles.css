@@ -38,17 +38,24 @@ header {
     height: 250px;
 }
 
-.quemsomos{
+.cardSobre{
     width: 100%;
     height: 50px;
+    align-items: center;
     /*color: white;*/
 }
 
-.quemsomos p {
+.quemsomos {
     font-size: 30px;
     color: #0aa421;
     font-style: oblique;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.textoSobre {
+    font-family: sans-serif;
+    height: 30px;
+    width: 100%;
 }
 
 
