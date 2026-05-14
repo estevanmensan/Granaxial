@@ -4,10 +4,14 @@ Repositório para Site da empresa Granixia
     <img src = "img/Granaxial.png" width=250px height=250px align-items=center>
 </div>
 
+
+<strong> [Acessar site](https://estevanmensan.github.io/Granaxial/) <strong>
+
+
 ## 📰 Planejamento do site
 - Criação da arquitetura do site
 - Modelagem baseado em site real
-- Apenas uma página
+- Apenas uma páginaS
 - Linguagem: HTML, CSS, JS
 
 ## 💻 Updates do site 
