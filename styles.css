@@ -11,10 +11,7 @@ head {
     padding: 20px;
 }
 
-
 header {
-    /*background: #48BC5A;
-    background: linear-gradient(94deg,rgba(72, 188, 90, 1) 13%, rgba(18, 50, 86, 1) 51%, rgba(72, 188, 90, 1) 87%);*/
     color: black;
     text-align: center;
     padding: 20px;
@@ -38,6 +35,7 @@ header {
     width: 250px;
     height: 250px;
 }
+
 .cardSobre{
     width: 100%;
     height: 50px;
@@ -50,19 +48,63 @@ header {
 
 .quemsomos {
     font-size: 30px;
-    color: #0aa421;
+    /*color: #0aa421;*/
     font-style: oblique;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .textoSobre {
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     align-items: center;
     height: 30px;
     width: 100%;
     padding-top: 5px;
 }
+
+.services{
+    background-color: white;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cardsServicos {
+    /*background-color: #0aa421;*/
+    background: #8AA1B0;
+    background: linear-gradient(90deg,rgba(138, 161, 176, 1) 0%, rgba(72, 188, 90, 1) 50%, rgba(138, 161, 176, 1) 100%);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px  #333;  
+    text-transform: uppercase; /*transforma tudo em maiuscula*/
+}
+
+section {
+    width: auto;
+    background-color: white;
+}
+
+.servicos{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.slogan {
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
 
 .logo {
     display: flex; /* coloca tudo em linha*/
@@ -83,12 +125,12 @@ header {
 
 footer {
     display: flex;
-    position: fixed;
+    position: static;
     /*background: #48BC5A;
     background: linear-gradient(94deg,rgba(72, 188, 90, 1) 13%, rgba(18, 50, 86, 1) 51%, rgba(72, 188, 90, 1) 87%);*/
     align-items: center;
     gap: 10px;
-    padding: 20px;
+    padding-bottom: 20px;
     bottom: 0;
     width: 100%;
 }
@@ -100,3 +142,4 @@ footer {
     justify-content: end;
     text-shadow: #333;
 }
+
